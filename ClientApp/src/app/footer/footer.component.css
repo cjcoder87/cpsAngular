@@ -1,0 +1,12 @@
+mat-toolbar{
+    background-color: #4D4C4C;
+   color: lightgray;
+   width: 100%;
+    margin: 40px auto 0 auto;
+}
+
+mat-toolbar img{
+    width: 75px;
+    height: 50px;
+}
+

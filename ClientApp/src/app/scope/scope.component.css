@@ -1,0 +1,56 @@
+.container{
+    position: relative;
+    top: 90px;
+}
+.scope{
+    font-size: 1rem;
+    margin: 15px auto;
+    
+}
+.form-check{
+    display: inline-block;
+    margin-right: 10px;
+    margin-bottom: 15px;
+}
+
+.scope-divider{
+    width:100%;
+    height: 10px;
+     background-color: #5598B2;
+     margin-top: 15px;
+     margin: 10px auto;
+  }
+
+  input.form-control{
+      margin-top: 5px;
+  }
+
+  label{
+      width: 100%;
+  }
+
+
+
+  footer{
+    position: relative;
+    top: 65px;
+    
+  }
+
+  footer mat-toolbar{
+    background-color: #4D4C4C;
+   color: lightgray;
+   width: 100%;
+    margin: 40px auto 0 auto;
+   
+}
+
+footer mat-toolbar img{
+    width: 75px;
+    height: 50px;
+}
+
+.save{
+    position: relative;
+    left: 90%;
+}

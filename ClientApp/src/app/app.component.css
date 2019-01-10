@@ -1,0 +1,31 @@
+@media (max-width: 767px) {
+  /* On small screens, the nav menu spans the full width of the screen. Leave a space for it. */
+  .body-content {
+    padding-top: 50px;
+  }
+}
+html, body{
+  font-size:16px;
+  background: #f1ecec;
+  height:100%;/* % needs a value from parent to be calculated, except for html wich takes window for reference. If you skip html, then body's height is 100% of null .... */
+  margin:0
+}
+
+body{
+  display:flex;
+  flex-direction:column;
+}
+
+.container-fluid{
+  flex:1;
+  padding-right: 0;
+  padding-left: 0;
+  
+}
+
+
+
+
+
+
+

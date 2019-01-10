@@ -1,0 +1,17 @@
+mat-toolbar{
+    background-color:#010101;
+    color:white;
+    width: 100%;
+  }
+  .rightFace{
+    /* This fills the remaining space, by using flexbox. 
+       Every toolbar row uses a flexbox row layout. */
+    flex: 1 1 auto;
+  }
+  
+  i.material-icons{
+    margin: 0 5px;
+    color:white;
+    font-size: 24px;
+  }
+  

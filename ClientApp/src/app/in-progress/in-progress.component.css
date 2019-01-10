@@ -1,0 +1,74 @@
+mat-toolbar{
+    background-color:#00A6E7;
+    color:white;
+    width: 100%;
+  }
+
+  th mat-toolbar{
+    background-color: #4D4C4C;
+    font-size: 14px;
+    height: 50px;
+  }
+
+  mat-tab-group{
+      background: white;
+      color: white;
+      min-height: 400px;
+      clear: both;
+  }
+  .rightFace{
+    /* This fills the remaining space, by using flexbox. 
+       Every toolbar row uses a flexbox row layout. */
+    flex: 1 1 auto;
+  }
+  
+  i.material-icons{
+    margin: 0 5px;
+    color:white;
+    font-size: 24px;
+  }
+
+  table  i.material-icons{
+    font-size: 14px;
+  }
+
+
+
+td{
+    height: 45px;
+    border-right: black solid 1px;
+    text-align: center;
+    
+
+}
+  
+table th{
+    color: white;
+    background-color: #4D4C4C;
+    border-right: black solid 1px;
+    height: 50px;
+}
+table{
+    border: black solid 1px;
+    background: white;
+    margin: 30px auto 0 auto;
+    width:95%;
+    
+}
+table tr{
+    border-right: black solid 1px;
+color: black;
+font-size: 12px;
+font-family: sans-serif;
+}
+
+.scenario-button{
+    float:right;
+    margin-top: 50px;
+}
+
+.scenario-button.btn.btn-lg{
+    background-color:#00A6E7;
+    color: white;
+    margin-bottom: 30px;
+}

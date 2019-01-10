@@ -1,0 +1,74 @@
+/* 
+.wrapper{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+  */
+/* .container{
+  width: 350px;
+  height: 420px;
+  background: #fff;
+  box-shadow: 0 0 10px rgba(150,150,150,0.5);
+  position: relative;
+} */
+
+#ribbonNav{
+  position:relative;
+}
+
+#scopedoc, #triage, #datacapture, #dataentry, #validation{
+  top: 25px;
+}
+
+#scopedoc{
+  
+  left: -10px;
+}
+
+#triage{
+  
+  left: 140px;
+}
+#datacapture{
+
+  right: 325px;
+}
+#dataentry{
+ 
+  right: 175px;
+}
+#validation{
+  
+  right: 15px;
+}
+
+.ribbon{
+  position: absolute;
+}
+ 
+/* ribbon-3 */
+.ribbon-3{
+  width: 100px;
+  height: 50px;
+  line-height: 50px;
+  background: #AFABAB;
+  color: white;
+  text-align: center;
+  font-size: 12px;
+  
+}
+
+.ribbon-3:after{
+  content: "";
+  position: absolute;
+  top: 0px;
+  right: -50px;
+  border-left: 25px solid #AFABAB;
+  border-right: 25px solid transparent;
+  border-top: 25px solid transparent;
+  border-bottom: 25px solid transparent;
+}
+ 
+ 

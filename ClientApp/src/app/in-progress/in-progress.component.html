@@ -1,0 +1,128 @@
+<mat-toolbar role="heading">
+    <span>Scenario Accelerator</span>
+  
+    <span class="rightFace"></span>
+    <span ><i class="material-icons">settings</i></span>
+    <span ><i class="material-icons">person</i></span>
+    </mat-toolbar>
+
+<button type="button" class="scenario-button btn btn-lg">Create New Scenario</button>
+<mat-tab-group>
+    <mat-tab label="In-Progress">
+      <table>
+          <tr>
+              <th>
+                  <mat-toolbar role="heading">
+                    <span>Scenario</span>
+                    <span class="rightFace"></span>
+                    <span ><i class="material-icons">arrow_drop_down</i></span>
+                    </mat-toolbar>
+                  </th>
+            <th>
+                <mat-toolbar role="heading">
+                  <span>Owner</span>
+                  <span class="rightFace"></span>
+                  <span ><i class="material-icons">arrow_drop_down</i></span>
+                  </mat-toolbar>
+                </th>
+            <th>
+                <mat-toolbar role="heading">
+                  <span>Date Created</span>
+                  <span class="rightFace"></span>
+                  <span ><i class="material-icons">arrow_drop_down</i></span>
+                  </mat-toolbar>
+                </th>
+            <th>
+              <mat-toolbar role="heading">
+                <span>Version</span>
+                <span class="rightFace"></span>
+                <span ><i class="material-icons">arrow_drop_down</i></span>
+                </mat-toolbar>
+              </th>
+              <th>
+                  <mat-toolbar role="heading">
+                    <span>Status</span>
+                    <span class="rightFace"></span>
+                    <span ><i class="material-icons">arrow_drop_down</i></span>
+                    </mat-toolbar>
+                  </th>
+          </tr>
+          <tr>
+              <td><a href="#">CPS + M97</a></td>
+            <td>Ted</td>
+            <td>15 Jan 2018</td>
+            <td>1.0</td>
+            <td matTooltip="Info about the status">Pending Approval</td>
+          </tr>
+          <tr>
+              <td><a href="#">CPS + M97</a></td>
+              <td>Ferdy</td>
+              <td>01 Jan 2018</td>
+              <td>1.1</td>
+              <td matTooltip="Info about the status">Testing and Analysis</td>
+            </tr>
+          
+        </table>
+        
+      
+    </mat-tab>
+    <mat-tab label="Completed">
+        <table>
+            <tr>
+                <th>
+                    <mat-toolbar role="heading">
+                      <span>Scenario</span>
+                      <span class="rightFace"></span>
+                      <span ><i class="material-icons">arrow_drop_down</i></span>
+                      </mat-toolbar>
+                    </th>
+              <th>
+                  <mat-toolbar role="heading">
+                    <span>Owner</span>
+                    <span class="rightFace"></span>
+                    <span ><i class="material-icons">arrow_drop_down</i></span>
+                    </mat-toolbar>
+                  </th>
+              <th>
+                  <mat-toolbar role="heading">
+                    <span>Date Created</span>
+                    <span class="rightFace"></span>
+                    <span ><i class="material-icons">arrow_drop_down</i></span>
+                    </mat-toolbar>
+                  </th>
+              <th>
+                <mat-toolbar role="heading">
+                  <span>Version</span>
+                  <span class="rightFace"></span>
+                  <span ><i class="material-icons">arrow_drop_down</i></span>
+                  </mat-toolbar>
+                </th>
+                <th>
+                    <mat-toolbar role="heading">
+                      <span>Status</span>
+                      <span class="rightFace"></span>
+                      <span ><i class="material-icons">arrow_drop_down</i></span>
+                      </mat-toolbar>
+                    </th>
+            </tr>
+            <tr>
+                <td><a href="#">CPS + M97</a></td>
+              <td>Ted</td>
+              <td>15 Jan 2018</td>
+              <td>1.0</td>
+              <td matTooltip="Info about the status">Published</td>
+            </tr>
+            <tr>
+                <td><a href="#">CPS + M97</a></td>
+                <td>Ferdy</td>
+                <td>01 Jan 2018</td>
+                <td>1.1</td>
+                <td matTooltip="Info about the status" matTooltipClass="example-tooltip-blue">Production</td>
+              </tr>
+            
+          </table>
+    </mat-tab>
+  </mat-tab-group>
+
+  <app-footer></app-footer>
+  
